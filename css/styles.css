@@ -188,7 +188,7 @@ main {
 
 section {
     margin-bottom: 40px;    
-    padding: 40px;
+    padding: 30px;
 }
 
 .section-presentacion {
@@ -211,8 +211,9 @@ section {
     margin-right: 0.4rem;
 }
 
-.section-contenido div p {
-    padding: 0;
+.section-contenido div p,
+.section-final p {
+    padding: 0; 
 }
 
 .cards-container {
@@ -922,4 +923,8 @@ footer h3{
 
 .redes-sociales img :hover{
     transform: scale(1.1);
+}
+
+.section-final h2 {
+    text-align: left;
 }
