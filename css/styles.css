@@ -149,6 +149,11 @@ main {
     border-radius: 8px;
 }
 
+#btn-modo:hover {
+    background-color: transparent;
+    color: inherit;                
+}
+
 @media (hover: hover) {
     header div button:hover {
         background-color: var(--fondo-secundario);
@@ -162,11 +167,6 @@ main {
 
     .navbar-toggler:hover {
         background-color: var(--fondo-secundario);
-    }
-
-    #btn-modo:hover {
-    background-color: transparent;
-    color: inherit;                
     }
 }
 
@@ -183,11 +183,6 @@ main {
 
     .navbar-toggler:active {
         background-color: var(--fondo-secundario);
-    }
-
-    #btn-modo:active {
-        background-color: transparent;
-        color: inherit;                
     }
 }
 
@@ -212,8 +207,8 @@ section {
 
 .section-contenido {
     background-color: color-mix(in srgb, var(--fondo-general) 78%, transparent);
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 0.4rem;
+    margin-right: 0.4rem;
 }
 
 .section-contenido div p {
