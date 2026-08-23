@@ -146,27 +146,35 @@ main {
     color: var(--encabezado-destacado);
     text-decoration: none;
     padding-left: 10px;
+    border-radius: 8px;   
 }
 
 .navbar-nav ul li a {
     padding-left: 15px;
-}
+} 
 
 .nav-links ul li a:hover {
     background-color: var(--fondo-secundario);
     color: var(--color-link-hover);
-    border-radius: 5%;
+    border-radius: 8px;
 }
 
 .active {
     background-color: var(--fondo-secundario);
-    border-radius: 5%;
+    border-radius: 8px;
 }
 
-header div button:hover {
-    background-color: var(--fondo-secundario);
+@media (hover: hover) {
+    header div button:hover {
+        background-color: var(--fondo-secundario);
+    }
 }
 
+@media (hover: none) {
+    header div button:active {
+        background-color: var(--fondo-secundario);
+    }
+}
 
 .section-presentacion {
     background-color: color-mix(in srgb, var(--fondo-general) 90%, transparent);
