@@ -845,6 +845,21 @@ textarea{
     text-align: center;
 }
 
+#form-newsletter button,
+#form-contacto button {
+    padding: 0.5rem;
+    color: #e6f2f8;
+    background-color: var(--verde-call-to-action);
+    border: 1px solid var(--verde-call-to-action);
+    border-radius: 6px;
+}
+
+:is(
+    #form-newsletter button,
+    #form-contacto button):hover{
+        background-color: var(--hoover-verde);
+    }
+
 /* FOOTER */
 footer{
     background-color: var(--footer-color);
