@@ -26,7 +26,7 @@
     --gris-texto: #E2E8F0;
     --seccion-clave: #286d88;
     --encabezado-destacado: #60A5FA; 
-    --destacado-impacto: #174a74;
+    --destacado-impacto: #9fc1dd;
     --hoover-azul: #3B9CC3;
     --hoover-verde: #1B5E20;
     --color-card: #1E293B;
@@ -211,7 +211,7 @@ section {
     margin-right: 0.4rem;
 }
 
-.section-contenido div p,
+.section-contenido p,
 .section-final p {
     padding: 0; 
 }
@@ -259,13 +259,6 @@ p {
     color: var(--gris-texto);
     padding-left: 1.5rem;
     margin-bottom: 20px; 
-}
-
-article {
-    background-color: white;
-    padding: 40px;
-    margin-bottom: 20px;
-    border-radius: 20px;
 }
 
 /* Estilo Global para todas las Listas Desordenadas */
@@ -927,4 +920,106 @@ footer h3{
 
 .section-final h2 {
     text-align: left;
+}
+
+article {
+    background-color: var(--color-card);
+}
+
+.diputado {
+    padding: 1.75rem  1.25rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.35);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.diputado__header {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.diputado__figure {
+    margin: 0;
+    flex-shrink: 0;
+    width: 240px;  
+}
+
+.diputado__img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px;
+    display: block; 
+}
+
+.diputado__info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.diputado__nombre {
+    margin: 0;
+}
+
+.diputado__details {
+    display: flex;
+    flex-direction: column;
+}
+
+.diputado__subtitle {
+    margin: 0;
+}
+
+.diputado__partido {
+    padding: 0.25rem;
+    border-radius: 8px;
+    background-color: #f5dd0259;
+    color: rgba(0, 0, 0, 0.548);
+    width: fit-content;
+}
+
+.diputado__voto {
+    padding: 0.5rem;
+    border-radius: 8px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.diputado__voto--favor {
+    color: #dc3545; 
+    background-color: #dc354580;
+}
+
+.diputado__descripcion {
+    padding: 0;
+    line-height: 1.5;
+    font-size: 0.95rem;   
+}
+
+.diputado__link {
+    text-decoration: none;
+    padding: 0.5rem;
+    color: var(--destacado-impacto);
+    background-color: #abcde148;
+    border: 1px solid var(--fondo-secundario);
+    border-radius: 6px;
+    display: block;
+    text-align: center;    
+    width: 100%;
+}
+
+@media (max-width: 545px) {
+    .diputado__header {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .diputado__figure {
+        margin: 0;
+        flex-shrink: 1;
+        width: 240px;
+    }    
 }
