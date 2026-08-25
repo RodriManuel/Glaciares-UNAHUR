@@ -1052,6 +1052,8 @@ article {
     }
 }
 
+
+/* Carousel */
 .testimonial-slider {
     padding: 0;
 }
@@ -1103,7 +1105,7 @@ article {
     }
     .carousel-control-prev,
     .carousel-control-next {
-            background-color: var(--color-card);
+        background-color: var(--color-card);
         width: 3em;
         height: 3em;
         position: absolute;
@@ -1120,4 +1122,8 @@ article {
     .card {
         height: 396px;
     }
+}
+
+.carousel-inner .active {
+    background-color: transparent;
 }
