@@ -141,3 +141,39 @@ if(formUnirse) {
         formUnirse.reset()
     });
 }
+
+
+document.addEventListener("DOMContentLoaded", function () {
+  const carousel = document.querySelector("#carouselExampleControls");
+  const carouselInner = carousel.querySelector(".carousel-inner");
+  const isDesktop = window.matchMedia("(min-width: 576px)");
+
+  if (isDesktop.matches) {
+    // Desactiva la transición nativa de Bootstrap para desktop
+    const bsCarousel = new bootstrap.Carousel(carousel, {
+      interval: false,
+      touch: false
+    });
+
+    let scrollPosition = 0;
+
+    carousel.querySelector(".carousel-control-next").addEventListener("click", function () {
+      const cardWidth = carousel.querySelector(".carousel-item").offsetWidth;
+      const maxScroll = carouselInner.scrollWidth - carouselInner.clientWidth;
+
+      if (scrollPosition < maxScroll) {
+        scrollPosition += cardWidth;
+        carouselInner.scrollTo({ left: scrollPosition, behavior: "smooth" });
+      }
+    });
+
+    carousel.querySelector(".carousel-control-prev").addEventListener("click", function () {
+      const cardWidth = carousel.querySelector(".carousel-item").offsetWidth;
+
+      if (scrollPosition > 0) {
+        scrollPosition -= cardWidth;
+        carouselInner.scrollTo({ left: scrollPosition, behavior: "smooth" });
+      }
+    });
+  }
+});
