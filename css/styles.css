@@ -1023,3 +1023,17 @@ article {
         width: 240px;
     }    
 }
+
+@media (hover: hover) {
+    .diputado__link:hover {
+        color: var(--color-card);
+        background-color: var(--color-link-hover);
+    }
+}
+
+@media (hover: none) {
+    .diputado__link:active {
+        color: var(--color-card);
+        background-color: var(--color-link-hover);
+    }
+}
