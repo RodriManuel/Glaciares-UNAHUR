@@ -16,6 +16,7 @@
     --burger-icon-color: invert(0);
     --border-icon-menu-color: rgba(0, 0, 0, 0.15);
     --fondo-imagen: url('../assets/img/glaciares/perito_moreno_background.jpg');
+    --focus-input: #2D7D9D;
 }
 
 .dark-mode {
@@ -35,6 +36,7 @@
     --burger-icon-color: invert(1);
     --border-icon-menu-color: rgba(255, 255, 255, 0.15);
     --fondo-imagen: url('../assets/img/glaciares/perito_moreno_dark_background.png');
+    --focus-input: #60A5FA;
 }
 html {
     background-color: #E6F2F8; 
@@ -922,6 +924,18 @@ footer h3{
     text-align: left;
 }
 
+/* Estilos para la sección de diputados */
+#buscador {
+    border-radius: 12px;
+    padding: 0.75rem 1.5rem;
+    box-shadow: 0 4px 5px rgba(0,0,0,0.2);
+    border: transparent;
+}
+ 
+#buscador:focus {
+    outline: 1px solid var(--focus-input);
+}
+
 article {
     background-color: var(--color-card);
 }
@@ -1005,7 +1019,7 @@ article {
     color: var(--destacado-impacto);
     background-color: #abcde148;
     border: 1px solid var(--fondo-secundario);
-    border-radius: 6px;
+    border-radius: 8px;
     display: block;
     text-align: center;    
     width: 100%;
