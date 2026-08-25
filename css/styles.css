@@ -1115,3 +1115,9 @@ article {
         left: 4.5em;
     }
 }
+
+@media (max-width: 575px) {
+    .card {
+        height: 396px;
+    }
+}
