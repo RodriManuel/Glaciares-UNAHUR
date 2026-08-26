@@ -177,3 +177,18 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   }
 });
+
+const carrusel = document.querySelector('.carousel');
+const puntoDeQuiebre = window.matchMedia('(max-width: 576px)');
+
+function toggleSlideClass(e) {
+    if (e.matches) {
+        carrusel.classList.add('slide');
+    } else {
+        carrusel.classList.remove('slide');
+    }
+}
+
+puntoDeQuiebre.addEventListener('change', toggleSlideClass);
+
+toggleSlideClass(puntoDeQuiebre);
