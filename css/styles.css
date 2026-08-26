@@ -285,9 +285,16 @@ main ul li, section ul li {
 
 /* Estilos diferenciados para headings */
 
-h1, h2, h3, h5 {
+h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
     color: var(--encabezado-destacado);
+}
+
+.card__title {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--encabezado-destacado);
+    font-weight: 550;
+    font-size: 1.135em;
 }
 
 h1{
