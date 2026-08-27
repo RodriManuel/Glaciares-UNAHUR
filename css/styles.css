@@ -11,7 +11,8 @@
     --hoover-azul: #0D47A1;
     --hoover-verde: #1B5E20;
     --color-card: #E6F2F8;
-    --color-link-hover: #2D7D9D;
+    --diputado-link: #2D7D9D;
+    --diputado-link-hover: #1a4b5e;
     --footer-color: #131A30;
     --burger-icon-color: invert(0);
     --border-icon-menu-color: rgba(0, 0, 0, 0.15);
@@ -31,7 +32,8 @@
     --hoover-azul: #3B9CC3;
     --hoover-verde: #1B5E20;
     --color-card: #1E293B;
-    --color-link-hover: #ABCDE1;
+    --diputado-link: #ABCDE1;
+    --diputado-link-hover: #6b7c86;
     --footer-color: #0a0d16;
     --burger-icon-color: invert(1);
     --border-icon-menu-color: rgba(255, 255, 255, 0.15);
@@ -1023,9 +1025,9 @@ article {
 .diputado__link {
     text-decoration: none;
     padding: 0.5rem;
-    color: var(--destacado-impacto);
-    background-color: #abcde148;
-    border: 1px solid var(--fondo-secundario);
+    color: var(--color-card);
+    background-color: var(--diputado-link);
+    border: 1px solid transparent;
     border-radius: 8px;
     display: block;
     text-align: center;    
@@ -1047,15 +1049,13 @@ article {
 
 @media (hover: hover) {
     .diputado__link:hover {
-        color: var(--color-card);
-        background-color: var(--color-link-hover);
+        background-color:var(--diputado-link-hover);
     }
 }
-
+ 
 @media (hover: none) {
     .diputado__link:active {
-        color: var(--color-card);
-        background-color: var(--color-link-hover);
+        background-color: var(--diputado-link-hover);
     }
 }
 
