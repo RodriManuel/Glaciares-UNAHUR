@@ -324,8 +324,9 @@ h1, h2, h3 {
 .card__title {
     font-family: 'Montserrat', sans-serif;
     color: var(--encabezado-destacado);
-    font-weight: 550;
+    font-weight: 625; 
     font-size: 1.135em;
+    text-wrap: balance;  
 }
 
 h1{
@@ -339,7 +340,7 @@ h2{
     font-size: 1.8rem;
     margin-top: 15px;  
     text-align: center;
-    font-weight: 600;
+    font-weight: 650;
 }
 
 h3{
@@ -1014,6 +1015,7 @@ article {
 
 .diputado__nombre {
     margin: 0;
+    font-weight: 600;
 }
 
 .diputado__details {
