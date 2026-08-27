@@ -215,6 +215,7 @@ section {
 
 .hero__link {
     color: var(--fondo-general);
+    padding: 0.65rem;
     background-color: var(--destacado-impacto);
     text-decoration: none;
     border-radius: 12px;
