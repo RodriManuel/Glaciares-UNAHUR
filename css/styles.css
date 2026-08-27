@@ -1047,6 +1047,30 @@ article {
     margin: 0;
 }
 
+.diputado__subtitle__span {
+    color: var(--gris-texto);
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.35rem;   
+    font-weight: 470;     
+    line-height: 1.5;
+}
+
+.diputado__footer button {
+    padding: 0;
+    margin: 0;
+    font-size: 1.12em;
+}
+
+.diputado__footer {
+    margin: 0;
+}
+
+.diputado__footer p {
+    margin: 0;
+    padding-left: 0.2rem;
+}
+
 .diputado__partido {
     padding: 0.25rem;
     border-radius: 8px;
@@ -1074,6 +1098,7 @@ article {
 }
 
 .diputado__link {
+    margin-top: 0.5rem;
     text-decoration: none;
     padding: 0.5rem;
     color: var(--color-card);
