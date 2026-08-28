@@ -988,9 +988,25 @@ footer h3{
 }
 
 /* Estilos para la sección de diputados */
+#buscador-container {
+    position: relative;
+    display: flex; 
+    align-items: center;
+}
+
+#buscador-container img {
+    position: absolute;
+    left: 0.65rem;
+    top: 42%;
+    transform: translateY(-50%);
+    width: 1.5rem;
+    height: 1.5rem;
+    pointer-events: none; /* Permite hacer clic a través de la imagen para enfocar el input */
+}
+
 #buscador {
     border-radius: 8px; 
-    padding: 0.5rem 1.5rem;
+    padding: 0.5rem 2.5rem;
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
     border: transparent;
 }
