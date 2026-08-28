@@ -285,6 +285,7 @@ section {
     background-color: var(--color-card);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
+    height: fit-content !important;
 }
 
 .card img {
