@@ -369,6 +369,10 @@ h3{
     margin-top: 25px;
     font-weight: 550;
 }
+
+.main-informe h2 {
+    text-align: start;
+}
 /* Imágenes de gráficos */
 
 .section-contenido figure img {
