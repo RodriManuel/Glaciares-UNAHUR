@@ -1010,7 +1010,8 @@ footer h3{
 
 /* Elemento Botón */
 .filtro-bloques {
-    padding: 0; 
+    padding: 0;
+    margin-bottom: 1rem; 
 }
 
 .filtro-bloques__btn {
@@ -1042,6 +1043,18 @@ footer h3{
   background-color: #38bdf8;
   color: #0f172a;
   border-color: #38bdf8;
+}
+
+.btn-filtro {
+    padding: 0;
+    color: var(--gris-texto);
+    background-color: transparent;
+    border: none;
+}
+
+.filtro-bloques__titulo {
+    padding: 0;
+    margin: 0; 
 }
 
 /* Esilos del card de diputados */
