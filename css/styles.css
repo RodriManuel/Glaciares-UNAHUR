@@ -7,16 +7,19 @@
     --gris-texto: #4A4A4A;
     --seccion-clave: #2D7D9D;
     --encabezado-destacado: #1E5ABA; 
-    --destacado-impacto: #1E5A8A;
     --hoover-azul: #0D47A1;
     --hoover-verde: #1B5E20;
     --color-card: #E6F2F8;
-    --color-link-hover: #2D7D9D;
+    --diputado-link: #2D7D9D;
+    --diputado-link-hover: #1a4b5e;
     --footer-color: #131A30;
     --burger-icon-color: invert(0);
     --border-icon-menu-color: rgba(0, 0, 0, 0.15);
     --fondo-imagen: url('../assets/img/glaciares/perito_moreno_background.jpg');
     --focus-input: #2D7D9D;
+    --destacado-impacto: #1E5A8A;
+    --destacado-impacto-hover: #173955; 
+    --icon-svg-color: brightness(1) invert(1);
 }
 
 .dark-mode {
@@ -27,19 +30,24 @@
     --gris-texto: #E2E8F0;
     --seccion-clave: #286d88;
     --encabezado-destacado: #60A5FA; 
-    --destacado-impacto: #9fc1dd;
     --hoover-azul: #3B9CC3;
     --hoover-verde: #1B5E20;
     --color-card: #1E293B;
-    --color-link-hover: #ABCDE1;
+    --diputado-link: #ABCDE1;
+    --diputado-link-hover: #6b7c86;
     --footer-color: #0a0d16;
     --burger-icon-color: invert(1);
     --border-icon-menu-color: rgba(255, 255, 255, 0.15);
     --fondo-imagen: url('../assets/img/glaciares/perito_moreno_dark_background.png');
     --focus-input: #60A5FA;
+    --destacado-impacto: #9fc1dd;
+    --destacado-impacto-hover: #6a90af;
+    --icon-svg-color: brightness(0) invert(0);
 }
+
 html {
     background-color: #E6F2F8; 
+    scroll-padding-top: 78px;
 }
 
 html.dark-mode {
@@ -195,11 +203,54 @@ section {
 
 .section-presentacion {
     background-color: color-mix(in srgb, var(--fondo-general) 90%, transparent);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .section-presentacion p {
     text-align: center;
     padding: 0;
+}
+
+.hero__link {
+    color: var(--fondo-general);
+    padding: 0.65rem;
+    background-color: var(--destacado-impacto);
+    text-decoration: none;
+    border-radius: 12px;
+    text-align: center;
+    max-width: fit-content;
+}
+
+.inicio__link {
+    display: inline-flex;
+    align-items: center;
+    color: var(--fondo-general);
+    font-size: 0.9rem; 
+    font-weight: 550; 
+    background-color: var(--verde-call-to-action);
+    text-decoration: none;
+    padding: 0.35rem 0.7rem;
+    border-radius: 6px;
+}
+
+.inicio__link__img {
+    filter: var(--icon-svg-color);
+    width: 1.5em;
+    height: auto;
+} 
+
+@media (hover: hover) {
+    .hero__link:hover {
+        background-color: var(--destacado-impacto-hover);
+    }
+}
+
+@media (hover: none) {
+    .hero__link:active {
+        background-color: var(--destacado-impacto-hover);
+    }
 }
 
 .section-final {
@@ -293,8 +344,9 @@ h1, h2, h3 {
 .card__title {
     font-family: 'Montserrat', sans-serif;
     color: var(--encabezado-destacado);
-    font-weight: 550;
+    font-weight: 625; 
     font-size: 1.135em;
+    text-wrap: balance;  
 }
 
 h1{
@@ -308,7 +360,7 @@ h2{
     font-size: 1.8rem;
     margin-top: 15px;  
     text-align: center;
-    font-weight: 600;
+    font-weight: 650;
 }
 
 h3{
@@ -1028,6 +1080,7 @@ article {
 
 .diputado__nombre {
     margin: 0;
+    font-weight: 600;
 }
 
 .diputado__details {
@@ -1037,6 +1090,30 @@ article {
 
 .diputado__subtitle {
     margin: 0;
+}
+
+.diputado__subtitle__span {
+    color: var(--gris-texto);
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.35rem;   
+    font-weight: 470;     
+    line-height: 1.5;
+}
+
+.diputado__footer button {
+    padding: 0;
+    margin: 0;
+    font-size: 1.12em;
+}
+
+.diputado__footer {
+    margin: 0;
+}
+
+.diputado__footer p {
+    margin: 0;
+    padding-left: 0.2rem;
 }
 
 .diputado__partido {
@@ -1066,11 +1143,12 @@ article {
 }
 
 .diputado__link {
+    margin-top: 0.5rem;
     text-decoration: none;
     padding: 0.5rem;
-    color: var(--destacado-impacto);
-    background-color: #abcde148;
-    border: 1px solid var(--fondo-secundario);
+    color: var(--color-card);
+    background-color: var(--diputado-link);
+    border: 1px solid transparent;
     border-radius: 8px;
     display: block;
     text-align: center;    
@@ -1092,15 +1170,13 @@ article {
 
 @media (hover: hover) {
     .diputado__link:hover {
-        color: var(--color-card);
-        background-color: var(--color-link-hover);
+        background-color:var(--diputado-link-hover);
     }
 }
-
+ 
 @media (hover: none) {
     .diputado__link:active {
-        color: var(--color-card);
-        background-color: var(--color-link-hover);
+        background-color: var(--diputado-link-hover);
     }
 }
 

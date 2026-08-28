@@ -74,24 +74,25 @@
         <section class="section-presentacion">
             <h1>ATRAVESAMOS TIEMPOS INUSUALES</h1>
             <p>Nuestros glaciares están cambiando a un ritmo sin precedentes, recordándonos la fragilidad del equilibrio natural. Somos una plataforma dedicada a la concientización y preservación de estos gigantes de hielo, pilares fundamentales de nuestras reservas de agua dulce y reguladores del clima global.</p>
+            <a class="hero__link" href="#ley-glaciares">↓ Ley de Glaciares ↓</a>
         </section>
 
         <section class="section-contenido">
             <h2>NUESTROS PROGRAMAS</h2>
-            <p>Convertimos la preocupación en acción. A través de nuestras distintas líneas de trabajo, abordamos la problemática de los glaciares desde la ciencia, la educación y el compromiso legal, buscando soluciones concretas para cuidar nuestras reservas de agua dulce. <br> <a href="programas.html">VER MÁS</a></p>
+            <p>Convertimos la preocupación en acción. A través de nuestras distintas líneas de trabajo, abordamos la problemática de los glaciares desde la ciencia, la educación y el compromiso legal, buscando soluciones concretas para cuidar nuestras reservas de agua dulce. <br> <a class="inicio__link" href="programas.html">VER PROGRAMAS <img class="inicio__link__img" src="assets/icons/angle-right-solid-full.svg" alt=""></a> </p>
         </section>
 
         <section class="section-contenido">
-            <h2>SITUACIÓN DE NUESTROS GLACIARES</h2>
+            <h2>NUESTROS GLACIARES</h2>
 
             <div>
                 <h3>Informe 2019</h3>
-                <p>Durante el último siglo, pero con mayor intensidad a partir de la década de 1960, la temperatura media del planeta ha aumentado...<br> <a href="informe_glaciares.html">LEER INFORME</a> </p>
+                <p>Durante el último siglo, pero con mayor intensidad a partir de la década de 1960, la temperatura media del planeta ha aumentado...<br> <a class="inicio__link" href="informe_glaciares.html">LEER INFORME<img class="inicio__link__img" src="assets/icons/angle-right-solid-full.svg" alt=""></a> </p>
             </div>
 
             <div>
                 <h3>Glaciares Argentinos 2026</h3>
-                <p>En el escenario climático de 2026, la distribución de nuestras masas de hielo a lo largo de la cordillera revela patrones críticos de vulnerabilidad. Este apartado presenta un análisis exhaustivo de la superficie glaciar en el territorio nacional, utilizando representaciones gráficas para mapear su ubicación actual por provincias. Comprender cómo se distribuyen estas reservas estratégicas de agua es el primer paso para dimensionar el impacto del calentamiento global en nuestra región. <br> <a href="glaciares_argentinos.html">VER DISTRIBUCIÓN DE GLACIARES</a> </p>
+                <p>En el escenario climático de 2026, la distribución de nuestras masas de hielo a lo largo de la cordillera revela patrones críticos de vulnerabilidad. Este apartado presenta un análisis exhaustivo de la superficie glaciar en el territorio nacional, utilizando representaciones gráficas para mapear su ubicación actual por provincias. Comprender cómo se distribuyen estas reservas estratégicas de agua es el primer paso para dimensionar el impacto del calentamiento global en nuestra región. <br> <a class="inicio__link" href="glaciares_argentinos.html">DISTRIBUCIÓN DE GLACIARES<img class="inicio__link__img" src="assets/icons/angle-right-solid-full.svg" alt=""></a> </p>
             </div>
         </section>
         
@@ -179,7 +180,7 @@
             </div>            
         </section>
 
-        <section class="section-final">
+        <section id="ley-glaciares" class="section-final">
             <h2>Diputados a favor de modificar la ley glaciares</h2>
             
             <p>Registro de los diputados que votaron a favor de la modificación de la ley glaciares.</p>
@@ -241,7 +242,6 @@
                             <img class="diputado__img" src="assets/img/diputados/Ajmechet_Sabrina.jpg" alt="Fotografía de Sabrina Ajmechet">
                         </figure>
                         <div class="diputado__info">
-                            <!-- <span class="diputado__partido">La Libertad Avanza</span> -->
                             <h3 class="diputado__nombre">Sabrina Ajmechet</h3>
                             <span class="diputado__cargo">DIPUTADA NACIONAL</span>
                             <span class="diputado__voto diputado__voto--favor">VOTÓ A FAVOR</span>
@@ -249,7 +249,6 @@
                     </div>
 
                     <div class="diputado__details">
-                        <h4 class="diputado__subtitle">Información▾</h4>
                         <h5 class="diputado__subtitle">Provincia</h5>
                         <span class="diputado__provincia">Buenos Aires</span>
                         <h5 class="diputado__subtitle">Profesión</h5>
@@ -259,8 +258,14 @@
                     </div>
 
                     <div class="diputado__footer">
-                        <h4 class="diputado__subtitle">Descripción▾</h4>
-                        <p class="diputado__descripcion">Política e historiadora argentina. Integra la Cámara de Diputados desde el 2021, representando a la ciudad de Buenos Aires</p>
+                        <div class="d-flex align-items-center gap-1">
+                            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><span class="diputado__subtitle__span">Descripción▾</span></button>
+                        </div>
+                        <div class="collapse" id="collapseExample">
+                            <div>
+                                <p class="diputado__descripcion">Política e historiadora argentina. Integra la Cámara de Diputados desde el 2021, representando a la ciudad de Buenos Aires.</p> 
+                            </div>
+                        </div>
                         <a class="diputado__link" href="https://www.hcdn.gob.ar/diputados/sajmechet/" target="_blank">Ver perfil completo</a>
                     </div>
                 </article>
