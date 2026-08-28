@@ -985,8 +985,8 @@ footer h3{
 
 /* Estilos para la sección de diputados */
 #buscador {
-    border-radius: 12px;
-    padding: 0.75rem 1.5rem;
+    border-radius: 8px; 
+    padding: 0.5rem 1.5rem;
     box-shadow: 0 4px 5px rgba(0,0,0,0.2);
     border: transparent;
 }
