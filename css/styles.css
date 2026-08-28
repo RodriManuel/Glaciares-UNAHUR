@@ -239,7 +239,12 @@ section {
     filter: var(--icon-svg-color);
     width: 1.5em;
     height: auto;
-} 
+}
+
+.hero__link__img {
+    width: 1.2rem;
+    padding-bottom: 0.12rem;
+}
 
 @media (hover: hover) {
     .hero__link:hover {
