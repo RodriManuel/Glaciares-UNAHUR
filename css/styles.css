@@ -943,6 +943,46 @@ footer h3{
     outline: 1px solid var(--focus-input);
 }
 
+/* Bloque contenedor */
+.filtro-bloques__lista {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+
+/* Elemento Botón */
+.filtro-bloques__btn {
+  background-color: #ffffff;
+  color: #334155;
+  border: 1px solid #cbd5e1;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+/* Modificador Estado Activo */
+.filtro-bloques__btn--activo {
+  background-color: #1d528f;
+  color: #ffffff;
+  border-color: #1d528f;
+}
+
+.dark-mode .filtro-bloques__btn {
+  background-color: #16222f;
+  color: #cbd5e1;
+  border-color: rgba(255, 255, 255, 0.15);
+}
+
+.dark-mode .filtro-bloques__btn--activo {
+  background-color: #38bdf8;
+  color: #0f172a;
+  border-color: #38bdf8;
+}
+
 article {
     background-color: var(--color-card);
 }
@@ -954,6 +994,11 @@ article {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
+    max-width:min-content;
+}
+
+.diputado.oculto {
+    display: none !important;
 }
 
 .diputado__header {

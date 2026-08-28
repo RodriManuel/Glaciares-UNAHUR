@@ -192,3 +192,30 @@ function toggleSlideClass(e) {
 puntoDeQuiebre.addEventListener('change', toggleSlideClass);
 
 toggleSlideClass(puntoDeQuiebre);
+
+// FILTRADO DE DIPUTADOS POR BLOQUE POLÍTICO
+
+const botonesFiltro = document.querySelectorAll(".filtro-bloques__btn");
+const cardsDiputados = document.querySelectorAll(".diputado");
+
+if (botonesFiltro.length > 0 && cardsDiputados.length > 0) {
+    botonesFiltro.forEach((boton) => {
+        boton.addEventListener("click", () => {
+
+            botonesFiltro.forEach((b) => b.classList.remove("filtro-bloques__btn--activo"));
+            boton.classList.add("filtro-bloques__btn--activo");
+
+            const partidoSeleccionado = boton.getAttribute("data-partido");
+
+            cardsDiputados.forEach((diputado) => {
+                const partidoDiputado = diputado.getAttribute("data-partido");
+
+                if (partidoSeleccionado === "todos" || partidoDiputado === partidoSeleccionado) {
+                    diputado.classList.remove("oculto");
+                } else {
+                    diputado.classList.add("oculto");
+                }
+            });
+        });
+    });
+}

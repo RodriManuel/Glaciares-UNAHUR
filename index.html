@@ -185,11 +185,57 @@
             <p>Registro de los diputados que votaron a favor de la modificación de la ley glaciares.</p>
 
             <div id="buscador-container">
-                <input id="buscador" type="text" placeholder="buscar por nombre...">
+                <input id="buscador" type="text" placeholder="Buscar por nombre...">
             </div>
 
+            <section class="filtro-bloques">
+                <class="filtro-bloques__titulo">Filtrar por bloque político: <br>
+                <br> 
+                <div class="filtro-bloques__lista">
+                    <button class="filtro-bloques__btn filtro-bloques__btn--activo" data-partido="todos">
+                    Todos
+                    </button>
+                    <button class="filtro-bloques__btn" data-partido="lla">
+                    La Libertad Avanza
+                    </button>
+                    <button class="filtro-bloques__btn" data-partido="uxp">
+                    Unión por la Patria
+                    </button>
+                    <button class="filtro-bloques__btn" data-partido="pro">
+                    PRO
+                    </button>
+                    <button class="filtro-bloques__btn" data-partido="ucr">
+                    UCR
+                    </button>
+                    <button class="filtro-bloques__btn" data-partido="innovacion-federal">
+                    Innovación Federal
+                    </button>
+                    <button class="filtro-bloques__btn" data-partido="elijo-catamarca">
+                    Elijo Catamarca
+                    </button>
+                    <button class="filtro-bloques__btn" data-partido="provincias-unidas">
+                    Provincias Unidas
+                    </button>
+                    <button class="filtro-bloques__btn" data-partido="adelante-buenos-aires">
+                    Adelante Buenos Aires
+                    </button>
+                    <button class="filtro-bloques__btn" data-partido="independencia">
+                    Independencia
+                    </button>
+                    <button class="filtro-bloques__btn" data-partido="por-santa-cruz">
+                    Por Santa Cruz
+                    </button>
+                    <button class="filtro-bloques__btn" data-partido="produccion-y-trabajo">
+                    Producción y Trabajo
+                    </button>
+                    <button class="filtro-bloques__btn" data-partido="encuentro-federal">
+                    Encuentro Federal
+                    </button>
+                </div>
+            </section>
+
             <section class="diputados">
-                <article class="diputado">
+                <article class="diputado" data-partido="lla">
                     <div class="diputado__header">
                         <figure class="diputado__figure">
                             <img class="diputado__img" src="assets/img/diputados/Ajmechet_Sabrina.jpg" alt="Fotografía de Sabrina Ajmechet">
