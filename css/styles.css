@@ -1255,3 +1255,8 @@ article {
 .carousel-inner .active {
     background-color: transparent;
 }
+
+.filtro-bloques {
+    padding: 0; 
+}
+
