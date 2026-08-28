@@ -40,7 +40,7 @@
     --border-icon-menu-color: rgba(255, 255, 255, 0.15);
     --fondo-imagen: url('../assets/img/glaciares/perito_moreno_dark_background.png');
     --focus-input: #60A5FA;
-    --destacado-impacto: #9fc1dd;
+    --destacado-impacto: #38bdf8;
     --destacado-impacto-hover: #6a90af;
     --icon-svg-color: brightness(0) invert(0);
 }
@@ -285,7 +285,6 @@ section {
     background-color: var(--color-card);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
-    height: fit-content !important;
 }
 
 .card img {
@@ -367,7 +366,7 @@ h2{
 h3{
     font-size: 1.5rem;
     margin-top: 25px;
-    font-weight: 550;
+    font-weight: 575;
 }
 
 .main-informe h2 {
@@ -1178,11 +1177,19 @@ article {
     .diputado__link:hover {
         background-color:var(--diputado-link-hover);
     }
+
+    .inicio__link:hover {
+        background-color: var(--hoover-verde);
+    }
 }
  
 @media (hover: none) {
     .diputado__link:active {
         background-color: var(--diputado-link-hover);
+    }
+
+    .inicio__link:active {
+        background-color: var(--hoover-verde);
     }
 }
 
@@ -1202,7 +1209,8 @@ article {
 .testimonial-title h2 {
     padding-left: 0.2em;
 }
-.card {
+
+.carousel-item .card {
     margin: 0 0.5em;
     box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
     border: none;
@@ -1253,7 +1261,7 @@ article {
 }
 
 @media (max-width: 575px) {
-    .card {
+    .carousel-item .card {
         height: 396px;
     }
 }
