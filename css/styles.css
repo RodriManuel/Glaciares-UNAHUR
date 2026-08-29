@@ -206,6 +206,8 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
 }
 
 .section-presentacion p {
@@ -260,7 +262,8 @@ section {
 
 .section-final {
     background-color: color-mix(in srgb, var(--fondo-general) 90%, transparent);
-    margin-bottom: 0; 
+    margin-bottom: 0;
+    padding: 0.5rem 1.2rem 0.5rem 1.2rem;
 }
 
 .section-contenido {
