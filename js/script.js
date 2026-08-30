@@ -194,18 +194,19 @@ puntoDeQuiebre.addEventListener('change', toggleSlideClass);
 toggleSlideClass(puntoDeQuiebre);
 
 // FILTRADO DE DIPUTADOS POR BLOQUE POLÍTICO
+function inicializarFiltros() {
+    const botonesFiltro = document.querySelectorAll(".filtro-bloques__btn");
 
-const botonesFiltro = document.querySelectorAll(".filtro-bloques__btn");
-const cardsDiputados = document.querySelectorAll(".diputado");
+    if (botonesFiltro.length === 0) return;
 
-if (botonesFiltro.length > 0 && cardsDiputados.length > 0) {
     botonesFiltro.forEach((boton) => {
         boton.addEventListener("click", () => {
-
             botonesFiltro.forEach((b) => b.classList.remove("filtro-bloques__btn--activo"));
             boton.classList.add("filtro-bloques__btn--activo");
 
             const partidoSeleccionado = boton.getAttribute("data-partido");
+            // Se seleccionan las tarjetas dinámicamente al momento de hacer clic
+            const cardsDiputados = document.querySelectorAll(".diputado");
 
             cardsDiputados.forEach((diputado) => {
                 const partidoDiputado = diputado.getAttribute("data-partido");
@@ -225,6 +226,7 @@ fetch('./assets/data/diputados.json')
     .then(response => response.json())
     .then(diputados => {
         renderizarDiputados(diputados);
+        inicializarFiltros();
     })
     .catch(error => console.error("Error cargando los diputados:", error));
 
