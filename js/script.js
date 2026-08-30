@@ -219,3 +219,63 @@ if (botonesFiltro.length > 0 && cardsDiputados.length > 0) {
         });
     });
 }
+
+// Lógica para generar los cards de diputados con la información en diputados.json
+fetch('./assets/data/diputados.json')
+    .then(response => response.json())
+    .then(diputados => {
+        renderizarDiputados(diputados);
+    })
+    .catch(error => console.error("Error cargando los diputados:", error));
+
+function renderizarDiputados(diputados) {
+    const container = document.querySelector(".diputados"); 
+    container.innerHTML = ""; // Limpia la sección antes de renderizar
+
+    diputados.forEach((diputado, index) => {
+        const card = document.createElement("article");
+        card.classList.add("diputado");
+        card.setAttribute("data-partido", diputado.partido_slug);
+
+        // ID único para controlar el collapse individual de Bootstrap
+        const collapseId = `collapse-${diputado.id || index}`;
+
+        card.innerHTML = `
+        <div class="diputado__header">
+            <figure class="diputado__figure">
+            <img class="diputado__img" src="assets/img/diputados/${diputado.foto}" alt="Fotografía de ${diputado.nombre}">
+            </figure>
+            <div class="diputado__info">
+            <h3 class="diputado__nombre">${diputado.nombre}</h3>
+            <span class="diputado__cargo">${diputado.cargo}</span>
+            <span class="diputado__voto diputado__voto--${diputado.voto_tipo}">${diputado.voto}</span>
+            </div>
+        </div>
+
+        <div class="diputado__details">
+            <h5 class="diputado__subtitle">Provincia</h5>
+            <span class="diputado__provincia">${diputado.provincia}</span>
+            <h5 class="diputado__subtitle">Profesión</h5>
+            <span class="diputado__profesion">${diputado.profesion}</span>
+            <h5 class="diputado__subtitle">Estudios</h5>
+            <span class="diputado__estudios">${diputado.estudios}</span>
+        </div>
+
+        <div class="diputado__footer">
+            <div class="d-flex align-items-center gap-1">
+            <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
+                <span class="diputado__subtitle__span">Descripción▾</span>
+            </button>
+            </div>
+            <div class="collapse" id="${collapseId}">
+            <div>
+                <p class="diputado__descripcion">${diputado.descripcion}</p> 
+            </div>
+            </div>
+            <a class="diputado__link" href="${diputado.perfil_url}" target="_blank">Ver perfil completo</a>
+        </div>
+        `;
+
+        container.appendChild(card);
+  });
+}

@@ -1,11 +1,17 @@
 [
     {
+        "id": "sabrina-ajmechet",
+        "foto": "Ajmechet_Sabrina.jpg",
         "nombre": "Sabrina Ajmechet",
         "cargo": "Diputada Nacional",
         "partido": "La Libertad Avanza",
-        "voto": "VOTÖ A FAVOR",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
         "provincia": "Buenos Aires",
-        "foto": "Ajmechet_Sabrina.jpg",
+        "profesion": "Abogada",
+        "estudios": "UBA",
+        "descripcion": "Política e historiadora argentina. Integra la Cámara de Diputados desde el 2021, representando a la ciudad de Buenos Aires.",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/sajmechet/",
         "genero": "Femenino"
     }
 ]
