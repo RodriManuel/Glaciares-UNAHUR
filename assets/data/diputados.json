@@ -13,5 +13,20 @@
         "descripcion": "Política e historiadora argentina. Integra la Cámara de Diputados desde el 2021, representando a la ciudad de Buenos Aires.",
         "perfil_url": "https://www.hcdn.gob.ar/diputados/sajmechet/",
         "genero": "Femenino"
+    },
+    {
+        "id": "hilda-aguirre",
+        "foto": "Aguirre_Hilda.png",
+        "nombre": "Hilda Aguirre",
+        "cargo": "Diputada Nacional",
+        "partido": "Unión por la Patria",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "provincia": "La Rioja",
+        "profesion": "Psicóloga",
+        "estudios": "-",
+        "descripcion": "Se desempeña como diputada nacional por la provincia de La Rioja desde 2019, con un mandato previo entre 2007 y 2011. También fue senadora nacional por la misma provincia entre 2011 y 2017.",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/haguirre/",
+        "genero": "Femenino"
     }
 ]
