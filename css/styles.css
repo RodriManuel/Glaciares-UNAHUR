@@ -1083,7 +1083,7 @@ footer h3{
 
 /* Esilos del card de diputados */
 .diputados {
-    padding: 0;
+    padding: 1rem;
 }
 
 article {
@@ -1098,7 +1098,13 @@ article {
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    max-width: 450px;
+    max-width: 400px;
+}
+
+@media (max-width: 545px) {
+    .diputado {
+       max-width: 290px; 
+    }    
 }
 
 .diputado.oculto {
@@ -1107,19 +1113,20 @@ article {
 
 .diputado__header {
     display: flex;
-    align-items: center;
-    gap: 1.5rem;
-}
+    gap: 0.5rem;
+} 
 
 .diputado__figure {
     margin: 0;
     flex-shrink: 0;
-    width: 240px;  
+    width: 164px;  
 }
 
 .diputado__img {
-    width: 100%; 
-    height: auto;
+    width: 164px; 
+    height: 184px;
+    object-fit: cover;
+    object-position: center;
     border-radius: 8px;
     display: block; 
 }
