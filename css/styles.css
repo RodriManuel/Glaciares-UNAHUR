@@ -1188,6 +1188,11 @@ article {
     background-color: #dc354580;
 }
 
+.diputado__voto--contra {
+    color: #198754; 
+    background-color: #19875480;
+}
+
 .diputado__descripcion {
     padding: 0;
     line-height: 1.5;
