@@ -245,8 +245,8 @@ async function cargarDatosDiputados() {
 
         // Renderizar e inicializar
         renderizarDiputados(diputadosCombinados);
-        swiperInstance = inicializarSwiper();
         inicializarFiltros();
+        swiperInstance = inicializarSwiper();
 
     } catch (error) {
         console.error("Error cargando los diputados:", error);
@@ -347,11 +347,14 @@ function renderizarDiputados(diputados) {
 
 function inicializarSwiper() {
     return new Swiper('.swiper-diputados', {
+        loop: true,
+        // Debe ser igual o mayor al slidesPerView más alto (1024px -> 3)
+        loopAdditionalSlides: 3,
         slidesPerView: 1,
         spaceBetween: 20,
-        // Permite recalculado de posiciones si los elementos se ocultan o muestran por JS
         observer: true,
         observeParents: true,
+        preventInteractionOnTransition: true, // Evita registrar clics mientras se desplaza
         navigation: {
             nextEl: '.swiper-button-next',
             prevEl: '.swiper-button-prev',
