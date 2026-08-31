@@ -224,14 +224,83 @@ function inicializarFiltros() {
 // Lógica para generar los cards de diputados con la información en diputados.json
 let swiperInstance = null;
 
-fetch('./assets/data/diputados.json')
-    .then(response => response.json())
-    .then(diputados => {
-        renderizarDiputados(diputados);
+// Función principal de carga
+async function cargarDatosDiputados() {
+    try {
+        // Cargar ambas fuentes de datos en paralelo
+        const [respuestaLocal, respuestaApi] = await Promise.all([
+            fetch('./assets/data/diputados.json'),
+            fetch('https://api.argentinadatos.com/v1/diputados/diputados')
+        ]);
+
+        if (!respuestaLocal.ok || !respuestaApi.ok) {
+            throw new Error("Error al obtener los datos de una o ambas fuentes.");
+        }
+
+        const diputadosLocales = await respuestaLocal.json();
+        const diputadosApi = await respuestaApi.json();
+
+        // Fusionar los datos locales con los datos de la API
+        const diputadosCombinados = fusionarDiputados(diputadosLocales, diputadosApi);
+
+        // Renderizar e inicializar
+        renderizarDiputados(diputadosCombinados);
         swiperInstance = inicializarSwiper();
         inicializarFiltros();
-    })
-    .catch(error => console.error("Error cargando los diputados:", error));
+
+    } catch (error) {
+        console.error("Error cargando los diputados:", error);
+    }
+}
+
+// Llama a la función principal
+cargarDatosDiputados();
+
+/**
+ * Normaliza cadenas de texto para comparar nombres sin problemas de acentos o mayúsculas
+ */
+function normalizarTexto(texto = "") {
+    return texto
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .trim();
+}
+
+/**
+ * Combina el JSON local con la respuesta de la API
+ */
+function fusionarDiputados(locales, api) {
+    return locales.map(local => {
+        // Buscar coincidencia en la API por ID o por coincidencia de Nombre + Apellido
+        const coincidenciaApi = api.find(itemApi => {
+            const nombreCompletoApi = normalizarTexto(`${itemApi.nombre} ${itemApi.apellido}`);
+            const nombreLocal = normalizarTexto(local.nombre);
+            
+            return itemApi.id === local.id || nombreCompletoApi === nombreLocal;
+        });
+
+        // Si no se encuentra en la API, devolver solo el objeto local
+        if (!coincidenciaApi) return local;
+
+        // Si la foto en la API es una URL completa, la usamos; de lo contrario, la imagen local
+        const fotoFinal = coincidenciaApi.foto && coincidenciaApi.foto.startsWith("http")
+            ? coincidenciaApi.foto
+            : `assets/img/diputados/${local.foto}`;
+
+        // Combinar ambas fuentes (dando prioridad a la API en datos oficiales si así lo deseas)
+        return {
+            ...local, // Conserva los datos locales (voto, descripcion, profesion, etc.)
+            ...coincidenciaApi, // Agrega datos de la API (bloque, periodoMandato, juramentoFecha, etc.)
+            
+            // Sobrescribimos campos donde quieras lógica personalizada:
+            nombre: local.nombre, // Mantiene el formato local si prefieres
+            bloque: coincidenciaApi.bloque || local.partido,
+            foto: fotoFinal,
+            provincia: local.provincia || coincidenciaApi.provincia
+        };
+    });
+}
 
 function renderizarDiputados(diputados) {
     const container = document.querySelector(".diputados"); 
@@ -240,20 +309,24 @@ function renderizarDiputados(diputados) {
     diputados.forEach((diputado, index) => {
         const card = document.createElement("article");
         
-        // Se añade swiper-slide junto con tu clase CSS
         card.classList.add("diputado", "swiper-slide");
-        card.setAttribute("data-partido", diputado.partido_slug);
+        card.setAttribute("data-partido", diputado.partido_slug || diputado.bloque);
 
         const collapseId = `collapse-${diputado.id || index}`;
+
+        // Determinar el origen de la imagen (URL remota o local)
+        const imgSrc = diputado.foto.startsWith("http") 
+            ? diputado.foto 
+            : `assets/img/diputados/${diputado.foto}`;
 
         card.innerHTML = `
         <div class="diputado__header">
             <figure class="diputado__figure">
-                <img class="diputado__img" src="assets/img/diputados/${diputado.foto}" alt="Fotografía de ${diputado.nombre}">
+                <img class="diputado__img" src="${imgSrc}" alt="Fotografía de ${diputado.nombre}">
             </figure>
             <div class="diputado__info">
                 <h3 class="diputado__nombre">${diputado.nombre}</h3>
-                <span class="diputado__cargo">${diputado.cargo}</span>
+                ${diputado.bloque ? `<small class="diputado__bloque">${diputado.bloque}</small>` : ''}
                 <span class="diputado__voto diputado__voto--${diputado.voto_tipo}">${diputado.voto}</span>
             </div>
         </div>
@@ -261,24 +334,10 @@ function renderizarDiputados(diputados) {
         <div class="diputado__details">
             <h5 class="diputado__subtitle">Provincia</h5>
             <span class="diputado__provincia">${diputado.provincia}</span>
-            <h5 class="diputado__subtitle">Profesión</h5>
-            <span class="diputado__profesion">${diputado.profesion}</span>
-            <h5 class="diputado__subtitle">Estudios</h5>
-            <span class="diputado__estudios">${diputado.estudios}</span>
         </div>
 
         <div class="diputado__footer">
-            <div class="d-flex align-items-center gap-1">
-                <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#${collapseId}" aria-expanded="false" aria-controls="${collapseId}">
-                    <span class="diputado__subtitle__span">Descripción▾</span>
-                </button>
-            </div>
-            <div class="collapse" id="${collapseId}">
-                <div>
-                    <p class="diputado__descripcion">${diputado.descripcion}</p> 
-                </div>
-            </div>
-            <a class="diputado__link" href="${diputado.perfil_url}" target="_blank">Ver perfil completo</a>
+            ${diputado.perfil_url ? `<a class="diputado__link" href="${diputado.perfil_url}" target="_blank">Ver perfil completo</a>` : ''}
         </div>
         `;
 
