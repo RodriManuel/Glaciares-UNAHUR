@@ -88,5 +88,41 @@
         "voto_tipo": "favor",
         "perfil_url": "https://www.hcdn.gob.ar/diputados/pansaloni",
         "genero": "Masculino"
+    },
+    {
+        "id": "damian-arabia",
+        "nombre": "Damian Arabia",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/darabia",
+        "genero": "Masculino"
+    },
+    {
+        "id": "araujo-hernandez",
+        "nombre": "Jorge Neri Araujo Hernandez",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jaraujoh",
+        "genero": "Masculino"
+    },
+    {
+        "id": "martin-ardohain",
+        "nombre": "Martin Ardohain",
+        "partido_slug": "pro",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mardohain",
+        "genero": "Masculino"
+    },
+    {
+        "id": "micaela-arrieta",
+        "nombre": "Lourdes Micaela Arrieta",
+        "partido_slug": "provincias-unidas",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/larrieta",
+        "genero": "Femenino"
     }
 ]
