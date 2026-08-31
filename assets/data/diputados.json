@@ -2,7 +2,6 @@
     {
         "id": "sabrina-ajmechet",
         "nombre": "Sabrina Ajmechet",
-        "cargo": "Diputada Nacional",
         "partido_slug": "lla",
         "voto": "VOTÓ A FAVOR",
         "voto_tipo": "favor",
@@ -12,11 +11,82 @@
     {
         "id": "hilda-aguirre",
         "nombre": "Hilda Aguirre",
-        "cargo": "Diputada Nacional",
         "partido_slug": "uxp",
         "voto": "VOTÓ EN CONTRA",
         "voto_tipo": "contra",
         "perfil_url": "https://www.hcdn.gob.ar/diputados/haguirre/",
         "genero": "Femenino"
+    },
+    {
+        "id": "ernesto-ali",
+        "nombre": "Ernesto Pipi Ali",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/enali/jefe-despacho.html",
+        "genero": "Masculino"
+    },
+    {
+        "id": "alberto-almena",
+        "nombre": "Carlos Alberto Almena",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/calmena/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "lisandro-almiron",
+        "nombre": "Lisandro Almiron",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/calmiron/jefe-despacho.html",
+        "genero": "Masculino"
+    },
+    {
+        "id": "claudio-alvarez",
+        "nombre": "Claudio Alvarez",
+        "partido_slug": "innovacion-federal",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/caalvarez/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "cristian-andino",
+        "nombre": "Cristian Andino",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/candino/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "javier-andrade",
+        "nombre": "Javier Andrade",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jandrade/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "barbara-andreusi",
+        "nombre": "Barbara Andreussi",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/bandreussi/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "pablo-ansaloni",
+        "nombre": "Pablo Ansaloni",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/pansaloni",
+        "genero": "Masculino"
     }
 ]
