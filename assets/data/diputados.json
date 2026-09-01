@@ -124,5 +124,86 @@
         "voto_tipo": "contra",
         "perfil_url": "https://www.hcdn.gob.ar/diputados/larrieta",
         "genero": "Femenino"
-    }
+    },
+    {
+        "id": "alberto-arrua",
+        "nombre": "Alberto Arrúa",
+        "partido_slug": "innovacion-federal",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/aarrua/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "martin-aveiro",
+        "nombre": "Martín Aveiro",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/maveiro/",
+        "genero": "Masculino"
+    },
+    {
+    "id": "belen-avico",
+    "nombre": "Belén Avico",
+    "partido_slug": "lla",
+    "voto": "VOTÓ A FAVOR",
+    "voto_tipo": "favor",
+    "perfil_url": "https://www.hcdn.gob.ar/diputados/bavico/",
+    "genero": "Femenino"
+  },
+  {
+    "id": "fernanda-avila",
+    "nombre": "Fernanda Ávila",
+    "partido_slug": "elijo-catamarca",
+    "voto": "VOTÓ EN CONTRA",
+    "voto_tipo": "contra",
+    "perfil_url": "https://www.hcdn.gob.ar/diputados/favila/",
+    "genero": "Femenino"
+  },
+  {
+    "id": "jorge-avila",
+    "nombre": "Jorge Antonio Ávila",
+    "partido_slug": "provincias-unidas",
+    "voto": "VOTÓ A FAVOR",
+    "voto_tipo": "favor",
+    "perfil_url": "https://www.hcdn.gob.ar/diputados/javila/",
+    "genero": "Masculino"
+  },
+  {
+    "id": "karina-banfi",
+    "nombre": "Karina Banfi",
+    "partido_slug": "adelante-buenos-aires",
+    "voto": "VOTÓ A FAVOR",
+    "voto_tipo": "favor",
+    "perfil_url": "https://www.hcdn.gob.ar/diputados/kbanfi/",
+    "genero": "Femenino"
+  },
+  {
+    "id": "marcelo-barbur",
+    "nombre": "Marcelo Barbur",
+    "partido_slug": "uxp",
+    "voto": "VOTÓ EN CONTRA",
+    "voto_tipo": "contra",
+    "perfil_url": "https://www.hcdn.gob.ar/diputados/mbarbur/",
+    "genero": "Masculino"
+  },
+  {
+    "id": "luis-basterra",
+    "nombre": "Luis Eugenio Basterra",
+    "partido_slug": "uxp",
+    "voto": "VOTÓ EN CONTRA",
+    "voto_tipo": "contra",
+    "perfil_url": "https://www.hcdn.gob.ar/diputados/lbasterra/",
+    "genero": "Masculino"
+  },
+  {
+    "id": "atilio-basualdo",
+    "nombre": "Atilio Basualdo",
+    "partido_slug": "lla",
+    "voto": "VOTÓ A FAVOR",
+    "voto_tipo": "favor",
+    "perfil_url": "https://www.hcdn.gob.ar/diputados/abasualdo/",
+    "genero": "Masculino"
+  }
 ]
