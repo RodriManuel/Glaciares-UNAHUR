@@ -826,5 +826,1382 @@
         "voto_tipo": "favor",
         "perfil_url": "https://www.hcdn.gob.ar/diputados/mgoitia/",
         "genero": "Femenino"
-    }
+    },
+    {
+        "id": "alfredo-gonzales",
+        "nombre": "Alfredo Gonzales",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/agonzales/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "alvaro-gonzalez",
+        "nombre": "Alvaro Gonzalez",
+        "partido_slug": "pro",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/agonzalez/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "diogenes-ignacio-gonzalez",
+        "nombre": "Diogenes Ignacio Gonzalez",
+        "partido_slug": "ucr",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/digonzalez/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "maria-luisa-gonzalez-estevarena",
+        "nombre": "Maria Luisa Gonzalez Estevarena",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mgestevarena/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "jose-gomez",
+        "nombre": "Jose Gomez",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jegomez/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "juan-grabois",
+        "nombre": "Juan Grabois",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jgrabois/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "maura-gruber",
+        "nombre": "Maura Gruber",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mgruber/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "carlos-gutierrez",
+        "nombre": "Carlos Gutierrez",
+        "partido_slug": "provincias-unidas",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/cgutierrez/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "ramiro-gutierrez",
+        "nombre": "Ramiro Gutierrez",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/crgutierrez/",
+        "genero": "Masculino"
+    },
+        {
+        "id": "jairo-guzman",
+        "nombre": "Jairo Guzman",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jguzman/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "raul-hadad",
+        "nombre": "Raul Hadad",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/rhadad/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "itai-hagman",
+        "nombre": "Itai Hagman",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/ihagman/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "diego-hartfield",
+        "nombre": "Diego Hartfield",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/dhartfield/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "oscar-herrera-ahuad",
+        "nombre": "Oscar A. Herrera Ahuad",
+        "partido_slug": "innovacion-federal",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/oherreraa/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "patricia-holzman",
+        "nombre": "Patricia Holzman",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/pholzman/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "gerardo-huesen",
+        "nombre": "Gerardo Huesen",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mhuesen/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "gladys-humenuk",
+        "nombre": "Gladys Humenuk",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/ghumenuk/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "ana-maria-ianni",
+        "nombre": "Ana Maria Ianni",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/aianni/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "maria-cecilia-ibanez",
+        "nombre": "Maria Cecilia Ibañez",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mibanez/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "carlos-gustavo-jaime-quiroga",
+        "nombre": "Carlos Gustavo Jaime Quiroga",
+        "partido_slug": "produccion-y-trabajo",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/cjaimeq/",
+        "genero": "Masculino"
+    },
+        {
+        "id": "pablo-juliano",
+        "nombre": "Pablo Juliano",
+        "partido_slug": "provincias-unidas",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/pjuliano/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "maximo-carlos-kirchner",
+        "nombre": "Maximo Carlos Kirchner",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mkirchner/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "moira-lanesan-sancho",
+        "nombre": "Moira Lanesan Sancho",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mlanesan/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "andres-ariel-laumann",
+        "nombre": "Andres Ariel Laumann",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/alaumann/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "aldo-leiva",
+        "nombre": "Aldo Leiva",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/aleiva/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "lilia-lemoine",
+        "nombre": "Lilia Lemoine",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/lbolukalol/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "andres-leone",
+        "nombre": "Andres Leone",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/aleone/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "mercedes-llano",
+        "nombre": "Mercedes Llano",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mllano/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "enrique-lluch",
+        "nombre": "Enrique Lluch",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/elluch/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "johanna-sabrina-longo",
+        "nombre": "Johanna Sabrina Longo",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jslongo/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "jimena-lopez",
+        "nombre": "Jimena Lopez",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mjlopez/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "cecilia-lopez-pasquali",
+        "nombre": "Cecilia Lopez Pasquali",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/clopezp/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "martin-lousteau",
+        "nombre": "Martin Lousteau",
+        "partido_slug": "provincias-unidas",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mlousteau/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "juan-pablo-luque",
+        "nombre": "Juan Pablo Luque",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jluque/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "lorena-macyszyn",
+        "nombre": "Lorena Macyszyn",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mmacyszyn/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "marcelo-mango",
+        "nombre": "Marcelo Mango",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/hmango/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "mario-manrique",
+        "nombre": "Mario Manrique",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mrmanrique/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "marianela-marclay",
+        "nombre": "Marianela Marclay",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/lmarclay/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "varinia-lis-marin",
+        "nombre": "Varinia Lis Marin",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/vmarin/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "juan-marino",
+        "nombre": "Juan Marino",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jmarino/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "alvaro-martinez",
+        "nombre": "Alvaro Martinez",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/amartinez/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "german-pedro-martinez",
+        "nombre": "German Pedro Martinez",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/gpmartinez/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "nicolas-massot",
+        "nombre": "Nicolas Massot",
+        "partido_slug": "encuentro-federal",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/nmassot/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "nicolas-mayoraz",
+        "nombre": "Nicolas Mayoraz",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/nmayoraz/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "gladys-medina",
+        "nombre": "Gladys Medina",
+        "partido_slug": "independencia",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/gmedina/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "julieta-metral-asensio",
+        "nombre": "Julieta Metral Asensio",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mmetrala/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "guillermo-michel",
+        "nombre": "Guillermo Michel",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/gmichel/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "fernanda-mino",
+        "nombre": "Fernanda Miño",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/rmino/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "juan-carlos-molina",
+        "nombre": "Juan Carlos Molina",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jucmolina/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "soledad-molinuevo",
+        "nombre": "Soledad Molinuevo",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mmolinuevo/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "matias-molle",
+        "nombre": "Matias Molle",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mmolle/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "soledad-mondaca",
+        "nombre": "Soledad Mondaca",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mmondaca/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "fernando-monguillot",
+        "nombre": "Fernando Monguillot",
+        "partido_slug": "elijo-catamarca",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/fmonguillot/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "guillermo-montenegro",
+        "nombre": "Guillermo Montenegro",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "",
+        "genero": "Masculino"
+    },
+    {
+        "id": "juan-pablo-montenegro",
+        "nombre": "Juan Pablo Montenegro",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/gmontenegro/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "roxana-monzon",
+        "nombre": "Roxana Monzon",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/rmonzon/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "francisco-morchio",
+        "nombre": "Francisco Morchio",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/fmorchio/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "cecilia-moreau",
+        "nombre": "Cecilia Moreau",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/cmoreau/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "julio-moreno-ovalle",
+        "nombre": "Julio Moreno Ovalle",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jumoreno/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "hugo-antonio-moyano",
+        "nombre": "Hugo Antonio Moyano",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/hmoyano/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "jorge-mukdise",
+        "nombre": "Jorge Mukdise",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jmukdise/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "gabriela-luciana-munoz",
+        "nombre": "Gabriela Luciana Muñoz",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/gmunoz/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "estela-mary-neder",
+        "nombre": "Estela Mary Neder",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/eneder/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "lisandro-nieri",
+        "nombre": "Lisandro Nieri",
+        "partido_slug": "ucr",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/lnieri/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "miriam-niveyro",
+        "nombre": "Miriam Niveyro",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mniveyro/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "sebastian-noblega",
+        "nombre": "Sebastian Noblega",
+        "partido_slug": "elijo-catamarca",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/dnoblega/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "javier-noguera",
+        "nombre": "Javier Noguera",
+        "partido_slug": "independencia",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mnoguera/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "jose-nunez",
+        "nombre": "Jose Nuñez",
+        "partido_slug": "provincias-unidas",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jnunez/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "joaquin-ojeda",
+        "nombre": "Joaquin Ojeda",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jojeda/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "kelly-olmos",
+        "nombre": "Kelly Olmos",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/kolmos/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "blanca-ines-osuna",
+        "nombre": "Blanca Ines Osuna",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/bosuna/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "pablo-outes",
+        "nombre": "Pablo Outes",
+        "partido_slug": "innovacion-federal",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/poutes/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "marcela-marina-pagano",
+        "nombre": "Marcela Marina Pagano",
+        "partido_slug": "coherencia",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mpagano/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "sergio-omar-palazzo",
+        "nombre": "Sergio Omar Palazzo",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/spalazzo/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "claudia-maria-palladino",
+        "nombre": "Claudia Maria Palladino",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/cpalladino/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "sebastian-pareja",
+        "nombre": "Sebastian Pareja",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/spareja/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "maria-graciela-parola",
+        "nombre": "Maria Graciela Parola",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mgparola/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "marcos-patino-brizuela",
+        "nombre": "Marcos Patiño Brizuela",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mpatinob/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "santiago-pauli",
+        "nombre": "Santiago Pauli",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jpauli/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "esteban-paulon",
+        "nombre": "Esteban Paulon",
+        "partido_slug": "provincias-unidas",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/epaulon/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "gabriela-pedrali",
+        "nombre": "Gabriela Pedrali",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/gpedrali/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "agustin-pellegrini",
+        "nombre": "Agustin Pellegrini",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/apellegrini/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "federico-agustin-pelli",
+        "nombre": "Federico Agustin Pelli",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/fpelli/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "jose-peluc",
+        "nombre": "Jose Peluc",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jpeluc/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "paula-andrea-penacca",
+        "nombre": "Paula Andrea Penacca",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/ppenacca/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "luis-petri",
+        "nombre": "Luis Petri",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/lpetri/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "maria-lorena-petrovich",
+        "nombre": "Maria Lorena Petrovich",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mpetrovich/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "luis-albino-picat",
+        "nombre": "Luis Albino Picat",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/lpicat/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "miguel-angel-pichetto",
+        "nombre": "Miguel Angel Pichetto",
+        "partido_slug": "encuentro-federal",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mpichetto/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "nancy-viviana-picon-martinez",
+        "nombre": "Nancy Viviana Picon Martinez",
+        "partido_slug": "produccion-y-trabajo",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/npiconm/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "horacio-pietragalla-corti",
+        "nombre": "Horacio Pietragalla Corti",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/hpietragallac/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "lorena-pokoik",
+        "nombre": "Lorena Pokoik",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/lpokoikg/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "maria-celeste-ponce",
+        "nombre": "Maria Celeste Ponce",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mponce/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "luciana-potenza",
+        "nombre": "Luciana Potenza",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/lpotenza/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "agustina-lucrecia-propato",
+        "nombre": "Agustina Lucrecia Propato",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/apropato/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "manuel-quintar",
+        "nombre": "Manuel Quintar",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mquintar/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "ariel-rauschenberger",
+        "nombre": "Ariel Rauschenberger",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/arauschenberger/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "valentina-ravera",
+        "nombre": "Valentina Ravera",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/vravera/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "veronica-razzini",
+        "nombre": "Veronica Razzini",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/vrazzini/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "karen-reichardt",
+        "nombre": "Karen Reichardt",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/kreichardt/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "gaston-riesco",
+        "nombre": "Gaston Riesco",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/griesco/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "cristian-a-ritondo",
+        "nombre": "Cristian A. Ritondo",
+        "partido_slug": "pro",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/critondo/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "jorge-rizzotti",
+        "nombre": "Jorge Rizzotti",
+        "partido_slug": "provincias-unidas",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jrizzotti/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "santiago-luis-roberto",
+        "nombre": "Santiago Luis Roberto",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/sroberto/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "gonzalo-roca",
+        "nombre": "Gonzalo Roca",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/groca/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "miguel-rodriguez",
+        "nombre": "Miguel Rodriguez",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/lurodriguez/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "laura-elena-rodriguez-machado",
+        "nombre": "Laura Elena Rodriguez Machado",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/lrodriguezm/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "agustin-oscar-rossi",
+        "nombre": "Agustin Oscar Rossi",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/arossi/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "yamila-ruiz",
+        "nombre": "Yamila Ruiz",
+        "partido_slug": "innovacion-federal",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/yruiz/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "marina-dorotea-salzmann",
+        "nombre": "Marina Dorotea Salzmann",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/msalzmann/",
+        "genero": "Femenino"
+        },
+    {
+        "id": "javier-sanchez-wrba",
+        "nombre": "Javier Sanchez Wrba",
+        "partido_slug": "pro",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jsanchezw/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "nancy-sand",
+        "nombre": "Nancy Sand",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/nsandg/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "juliana-santillan-juarez-brahim",
+        "nombre": "Juliana Santillan Juarez Brahim",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/csantillanj/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "santiago-santurio",
+        "nombre": "Santiago Santurio",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/ssanturior/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "gisela-scaglia",
+        "nombre": "Gisela Scaglia",
+        "partido_slug": "provincias-unidas",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/gscaglia/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "juan-schiaretti",
+        "nombre": "Juan Schiaretti",
+        "partido_slug": "provincias-unidas",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jschiaretti/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "dario-schneider",
+        "nombre": "Dario Schneider",
+        "partido_slug": "ucr",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/aschneider/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "sabrina-selva",
+        "nombre": "Sabrina Selva",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/sselva/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "adriana-cristina-serquis",
+        "nombre": "Adriana Cristina Serquis",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/aserquis/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "vanesa-raquel-siley",
+        "nombre": "Vanesa Raquel Siley",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/vsiley/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "guillermo-snopek",
+        "nombre": "Guillermo Snopek",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/gsnopek/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "laura-soldano",
+        "nombre": "Laura Soldano",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/lsoldano/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "julia-strada",
+        "nombre": "Julia Strada",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jstrada/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "jorge-taiana",
+        "nombre": "Jorge Taiana",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jtaiana/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "rodolfo-tailhade",
+        "nombre": "Rodolfo Tailhade",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/ltailhade/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "caren-tepp",
+        "nombre": "Caren Tepp",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/ctepp/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "paulo-agustin-tita",
+        "nombre": "Paulo Agustin Tita",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/ptita/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "pablo-todero",
+        "nombre": "Pablo Todero",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/ptodero/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "victoria-tolosa-paz",
+        "nombre": "Victoria Tolosa Paz",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/vtolosap/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "yamile-tomassoni",
+        "nombre": "Yamile Tomassoni",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/ytomassoni/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "alejandra-torres",
+        "nombre": "Alejandra Torres",
+        "partido_slug": "provincias-unidas",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/ltorres/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "ruben-dario-torres",
+        "nombre": "Ruben Dario Torres",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/rdtorres/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "anibal-tortoriello",
+        "nombre": "Anibal Tortoriello",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/atortoriello/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "jose-federico-tournier",
+        "nombre": "Jose Federico Tournier",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/jtournier/",
+        "genero": "Masculino"
+    },
+        {
+        "id": "cesar-treffinger",
+        "nombre": "Cesar Treffinger",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/ctreffinger/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "nicolas-alfredo-trotta",
+        "nombre": "Nicolas Alfredo Trotta",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/ntrotta/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "hernan-urien",
+        "nombre": "Hernan Urien",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/hurien/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "eduardo-felix-valdes",
+        "nombre": "Eduardo Felix Valdes",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/evaldes/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "daniel-vancsik",
+        "nombre": "Daniel Vancsik",
+        "partido_slug": "innovacion-federal",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/dvancsik/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "patricia-vasquez",
+        "nombre": "Patricia Vasquez",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/pvasquez/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "yolanda-vega",
+        "nombre": "Yolanda Vega",
+        "partido_slug": "innovacion-federal",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/yvega/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "m-elena-velazquez",
+        "nombre": "M. Elena Velazquez",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mevelazquez/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "andrea-fernanda-vera",
+        "nombre": "Andrea Fernanda Vera",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/avera/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "pamela-fernanda-verasay",
+        "nombre": "Pamela Fernanda Verasay",
+        "partido_slug": "ucr",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/pverasay/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "lorena-villaverde",
+        "nombre": "Lorena Villaverde",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/lvillaverde/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "gino-visconti",
+        "nombre": "Gino Visconti",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/gvisconti/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "luana-volnovich",
+        "nombre": "Luana Volnovich",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/lvolnovich/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "hugo-yasky",
+        "nombre": "Hugo Yasky",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/hyasky/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "martin-yeza",
+        "nombre": "Martin Yeza",
+        "partido_slug": "pro",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/myeza/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "carlos-raul-zapata",
+        "nombre": "Carlos Raul Zapata",
+        "partido_slug": "lla",
+        "voto": "VOTÓ A FAVOR",
+        "voto_tipo": "favor",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/czapata/",
+        "genero": "Masculino"
+    },
+    {
+        "id": "natalia-zaracho",
+        "nombre": "Natalia Zaracho",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/nzaracho/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "maria-ines-zigaran",
+        "nombre": "Maria Ines Zigaran",
+        "partido_slug": "provincias-unidas",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/mzigaran/",
+        "genero": "Femenino"
+    },
+    {
+        "id": "christian-alejandro-zulli",
+        "nombre": "Christian Alejandro Zulli",
+        "partido_slug": "uxp",
+        "voto": "VOTÓ EN CONTRA",
+        "voto_tipo": "contra",
+        "perfil_url": "https://www.hcdn.gob.ar/diputados/czulli/",
+        "genero": "Masculino"
+    }  
 ]
