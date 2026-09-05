@@ -395,6 +395,29 @@ h3{
     overflow-wrap: anywhere;
 }
 
+.btnModal__container {
+    margin: 1rem;
+    display: flex;  
+} 
+
+@media (max-width: 758px) {
+    .btnModal__container {
+        justify-content: center;  
+    }    
+}
+
+.btnModal__container button {
+    padding: .5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    background-color: #743BBC;
+    color: rgb(15, 14, 14);
+    border: none;
+    border-radius: 8px;
+}
+
+
+
 /* Tabla en glaciares-argentinos.html */
 .tabla-glaciares {
     width: 100%;
