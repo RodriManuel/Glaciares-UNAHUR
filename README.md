@@ -23,13 +23,19 @@ La intención del proyecto es concientizar sobre la importancia de los glaciares
 - Etapa 4: JavaScript ☑️
 
 ### Tecnologías utilizadas
-![HTML5](https://img.shields.io/badge/HTML5-white?logo=html5&logoColor=white&color=E34F26) 
-![CSS3](https://img.shields.io/badge/CSS3-white?logo=css&logoColor=white&color=3C99DC) <br>
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&color=7952B3) <br>
-![JavaScript](https://img.shields.io/badge/JavaScript-white?logo=javascript&logoColor=black&color=F7DF1E) <br>
-![Git](https://img.shields.io/badge/Git-white?logo=git&logoColor=white&color=F05032)
-![GitHub](https://img.shields.io/badge/GitHub-white?logo=github&logoColor=white&color=181717) <br>
+
+**Front**  
+![HTML5](https://img.shields.io/badge/HTML5-white?logo=html5&logoColor=white&color=E34F26)
+![CSS3](https://img.shields.io/badge/CSS3-white?logo=css&logoColor=white&color=3C99DC)
+![JavaScript](https://img.shields.io/badge/JavaScript-white?logo=javascript&logoColor=black&color=F7DF1E)
+
+**Librerías & UI**  
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white&color=7952B3)
+![Swiper](https://img.shields.io/badge/Swiper.js-white?logo=swiper&logoColor=white&color=6332F6)
+
+**Despliegue**  
 ![Vercel](https://img.shields.io/badge/vercel-black?&logo=vercel&logoColor=white)
+
 
 ### Equipo y distribución del trabajo
 - Rodrigo Perez:
