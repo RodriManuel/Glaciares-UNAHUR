@@ -410,8 +410,8 @@ h3{
     padding: .5rem;
     font-size: 1.25rem;
     font-weight: 600;
-    background-color: #743BBC;
-    color: rgb(15, 14, 14);
+    background-color: #CD201F;
+    color: #FFFFFF;
     border: none;
     border-radius: 8px;
     display: inline-flex;
@@ -419,6 +419,7 @@ h3{
 }
 
 .play__img {
+    filter: brightness(1) invert(1);
     width: 1.5em;
     height: auto;
 }
