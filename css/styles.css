@@ -425,14 +425,22 @@ h3{
 }
 
 .btnModal__inner {
-    padding: .35rem .5rem;
+    padding: .35rem .25rem .35rem .5rem;
     font-weight: 400;
     color: white;
-    background-color: var(--footer-color);
+    background-color: var(--destacado-impacto);
+    border: none;
     border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
 }
 
-
+.close__img {
+    filter: brightness(1) invert(1);
+    width: 1.35em;
+    height: auto;
+    margin: 0;
+}
 
 /* Tabla en glaciares-argentinos.html */
 .tabla-glaciares {
