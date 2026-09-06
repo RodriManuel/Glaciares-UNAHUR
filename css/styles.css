@@ -420,8 +420,16 @@ h3{
 
 .play__img {
     filter: brightness(1) invert(1);
-    width: 1.5em;
+    width: 1.45em;
     height: auto;
+}
+
+.btnModal__inner {
+    padding: .35rem .5rem;
+    font-weight: 400;
+    color: white;
+    background-color: var(--footer-color);
+    border-radius: 8px;
 }
 
 
